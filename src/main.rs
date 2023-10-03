@@ -6,7 +6,7 @@ use std::{fs, env};
 use frontend::lexer::*;
 // use frontend::ast_parser::*;
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn main() -> Result<(), Box<dyn Error>>g
     env::set_var("RUST_BACKTRACE", "1");
 
     let mut source = fs::read_to_string("./src/test_files/test1.lp")?;
